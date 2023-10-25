@@ -1,0 +1,17 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.3.3",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "nodeserver": "ts-node server.ts",
+    "bunserver": "bun server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "yarn@4.0.0"
+}
