@@ -2,7 +2,6 @@
   "license": "MIT",
   "dependencies": {
     "cypress": "^13.3.3",
-    "express": "^4.18.2",
     "ts-node": "^10.9.1"
   },
   "scripts": {
