@@ -22,11 +22,17 @@ or
 
 ## Test
 
-While running `nodeserver` or `bunserver`, run this in a separate terminal pane:
+Node's attempt to parse the HTTP response will fail with the server from Bun 1.0.7, and pass with the server from Node 18+.
+
+While running `nodeserver` or `bunserver`, run either of these in a separate terminal pane:
+
+### Node
+
+```yarn nodeclient```
+
+### Cypress
 
 ```yarn cypress run spec```
-
-Test will fail with Bun 1.0.7 and pass with Node 18+.
 
 ## Sample packet captures
 

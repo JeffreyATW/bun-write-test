@@ -5,6 +5,8 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
+    "nodeclient": "ts-node client.ts",
+    "bunclient": "bun client.ts",
     "nodeserver": "ts-node server.ts",
     "bunserver": "bun server.ts"
   },
